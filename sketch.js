@@ -15,7 +15,7 @@ Papa.parse('data.csv', {
         <td>${row.Player}</td>
         <td>${row.Year}</td>
         <td>${row.Position}</td>
-        <td>${row.Total fee(EUR Millions)</td>
+        <td>${row.Total fee(EUR Millions)}</td>
       `;
  
       tbody.appendChild(tr); 
