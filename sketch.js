@@ -12,11 +12,10 @@ Papa.parse('data.csv', {
       const tr = document.createElement('tr');
  
       tr.innerHTML = `
-        <td>${row.Platform}</td>
-        <td>${row.PayoutPerStreamUSD}</td>
-        <td>${row.MonthlyUsersMillions}</td>
-        <td>${row.Type}</td>
-        <td>${row.StreamsForUSMonthlyMinimumWage}</td>
+        <td>${row.Player}</td>
+        <td>${row.Year}</td>
+        <td>${row.Position}</td>
+        <td>${row.Total fee(EUR Millions)}</td>
       `;
  
       tbody.appendChild(tr); 
